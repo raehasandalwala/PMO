@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: url("../images/dark1.jpg") repeat;
+	text-align:center;
+}
+img{
+	/* width:100%; */
+	max-width:100%;
+}
+
+.projectUpdate{
+
+	background-color:#0191C8;
+	border:#F00;
+	text-align:center;
+	width:800px;
+	padding:1px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	position:relative;
+    top: 100px;
+
+
+}
+
+#inputbox{
+	
+	text-align:left;
+	height:1.5em;
+	width:70%;
+	margin:auto;
+	
+}
+
+#labels{
+height:2em;
+width: 10em;
+float:left;
+text-align: center;
+vertical-align:middle;
+margin:auto;
+font-size:18px;
+}
