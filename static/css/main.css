@@ -1,29 +1,115 @@
 @charset "utf-8";
 /* CSS Document */
 
+*{
+font-family: arial, sans-serif, verdana;
+}
+
+nav {
+background: white;
+display: block;
+position: fixed;
+left: 0;
+top: 0;
+border-bottom: 2px solid #F00;
+width: 100%;
+z-index: 10;
+overflow: visible;
+}
+
+nav ul {
+overflow: visible;
+padding: 0 0 0 130px;
+margin: 0;
+position: relative;
+width: 600px;
+left: 50%;
+margin-left: -400px;
+}
+
+ul {
+list-style: none;
+overflow: auto;
+}
+
+nav li {
+float: left;
+overflow: show;
+}
+
+li {
+display: list-item;
+text-align: -webkit-match-parent;
+}
+
+nav a {
+font-weight: bold;
+display: inline-block;
+font-size: 13px;
+padding: 15px 10px;
+color: black;
+margin: 0;
+text-align: center;
+}
+
+nav a:hover{
+color: black;
+background:#dddddd;
+}
+
+a{
+text-decoration:none;
+}
+
+h1, h2, p{
+width:100%;
+}
+
+div{
+position:relative;
+top:10%;
+}
+
 body{
 	background: url("../images/dark1.jpg") repeat;
 	text-align:center;
+	
 }
+
 img{
 	/* width:100%; */
 	max-width:100%;
 }
 
+.menuBar{
+ color: white;
+ text-align: center;
+}
+
+.menuTab{
+background: #777777;
+width=24%; 
+margin=auto;
+padding=1px;
+
+}
+
 .projectUpdate{
 
-	background-color:#0191C8;
-	border:#F00;
+	background-color:white;
+	top: 100px;
+	border: 2px solid #F00;
+	border-radius:3px;
 	text-align:center;
 	width:800px;
 	padding:1px;
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:auto;
-	margin-bottom:auto;
+	margin-bottom:20px;
 	position:relative;
-    top: 100px;
-
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+	overflow:hidden;
 
 }
 
@@ -33,7 +119,6 @@ img{
 	height:1.5em;
 	width:70%;
 	margin:auto;
-	
 }
 
 #labels{
@@ -44,4 +129,12 @@ text-align: center;
 vertical-align:middle;
 margin:auto;
 font-size:18px;
+}
+
+#button{
+text-align:center;
+margin:auto;
+font-size:15px;
+float:none;
+vertical-align:middle;
 }
