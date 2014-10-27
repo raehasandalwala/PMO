@@ -12,16 +12,15 @@ font-family: arial, sans-serif, verdana;
 nav {
 /*background: #ff0052;
 */
-background:#F00;
+background:white;
 display: block;
 position: fixed;
 left: 0;
 top: 0;
-border-bottom: 2px solid white;
+border-bottom: 2px solid red;
 width: 100%;
 z-index: 10;
 overflow: visible;
-
 }
 
 nav ul {
@@ -53,10 +52,11 @@ text-align: -webkit-match-parent;
 
 nav a {
 font-weight: bold;
+font-family:"Arial Rounded MT Bold", "Bookman Old Style";
 display: inline-block;
-font-size: 13px;
-padding: 15px 10px;
-color: black;
+font-size: 16px;
+padding: 10px;
+color: #300;
 margin: 0;
 text-align: center;
 }
@@ -77,6 +77,14 @@ width:100%;
 div{
 position:relative;
 top:10%;
+}
+
+nav li img{
+
+margin-top:0.2em; 
+width:100px;
+position:absolute;
+left:-2em;
 }
 
 body{
