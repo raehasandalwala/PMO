@@ -1,5 +1,9 @@
 from django.contrib import admin
 
-admin.site.register(projects_app)
+from projects_app.models import Project
+
+class ProjectAdmin(admin.ModelAdmin):
+      fields=['projectname','summary']
+admin.site.register(Project)
 
 

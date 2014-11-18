@@ -7,7 +7,7 @@ admin.autodiscover()
 urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'PMO.views.home', name='home'),
-    # url(r'^PMO/', include('PMO.foo.urls')),
+     url(r'^projects_app/', include('projects_app.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 class Project(models.Model):
-    projectname = models.CharField(max_length=200)
+    projectname = models.CharField(max_length=200, unique=True)
     summary = models.TextField(max_length=500, unique=True)
     src_url = models.URLField()
     doc_url = models.URLField()
