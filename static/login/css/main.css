@@ -100,18 +100,33 @@ img{
 }
 
 
-.divHome{
 
-	width:	850px;
-/*	padding:5px;*/
-	margin-left:auto;
+.userHome{
+
+margin-top:3.5em;
+
+
+}
+
+.projectUpdate{
+
+	background-color:#CCC;
+	top: 6em;
+	border: 2px solid #F00;
+	border-radius:3px;
+	text-align:center;
+	width:100%;
+	padding:10px;
+	margin-left:900px;
 	margin-right:auto;
-	margin-top:3em;
+	margin-top:auto;
 	margin-bottom:auto;
-	position:relative;
-	/*box-shadow: 5px 5px 10px rgba(0,0,0,0.1);*/
+	position:absolute;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
 	white-space:nowrap;
 	display:inline-block;
+	
+	
 
 }
 
