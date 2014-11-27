@@ -121,17 +121,24 @@ tinymce.init({
 
 <body>
 
-			<nav>
+			<nav id="nav" role="navigation">
                 <ul>
                 	<li>
   							<img src="../static/images/logo.png">
                     </li>
+                    
                     <li>
                     	<a href="#divHome">Home</a>
                     </li>
+                    
                     <li>
                     	<a href="#divWorks">Our Works</a>
+                        <ul id="submenu">
+                        	<li><a href="pmo_mooc.html">PMO MOOC</a></li>
+                        	<li><a href="">Clicker</a></li>
+                        </ul>
                     </li>
+                    
                     <li>
                     	<a href="#divAbout">About PMO</a>
                     </li>
@@ -146,10 +153,7 @@ tinymce.init({
                     </li>
 					<li>
                     	<a href="login.html" >Sign In</a>
-                    </li>
-                    <li>
-                    	<a href="register">Sign Up</a>
-                    </li>
+                    </li>                  
                 </ul>
                
             </nav>

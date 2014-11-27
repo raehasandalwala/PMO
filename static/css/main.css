@@ -21,7 +21,6 @@ border-bottom: 3px solid #F00;
 width: 100%;
 z-index: 10;
 overflow: visible;
-opacity:0.6;
 }
 
 nav ul {
@@ -31,8 +30,7 @@ margin: 0;
 position: relative;
 width: 800px;
 left: 50%;
-margin-left: -420px;
-
+margin-left: -500px;
 }
 
 ul {
@@ -43,6 +41,7 @@ overflow: auto;
 nav li {
 float: left;
 overflow: show;
+
 }
 
 li {
@@ -64,7 +63,7 @@ text-align: center;
 
 nav a:hover{
 color: black;
-background:#dddddd;
+background:#CCCCCC;
 }
 
 a{
@@ -84,9 +83,33 @@ nav li img{
 
 margin-top:0.2em; 
 width:100px;
-position:absolute;
+position:relative;
 left:-2em;
 }
+
+#nav ul li:hover > ul#submenu { margin:0px; padding:0px; }
+#nav ul li:hover > ul#submenu li{ float:none; display:block; }
+#nav ul li:hover > ul#submenu li a { color:#000; min-width:150px;}
+#nav ul li:hover > ul#submenu li a:hover{ color:#000;  }
+
+
+#nav ul li{
+position:relative;
+}
+
+#nav ul ul{
+display:none;
+}
+
+#nav ul li ul#submenu{
+position:absolute;  
+float:none;
+height:100px;
+width:200px;
+background-color:#FF0;
+display:block;
+text-align:center;
+} 
 
 body{
 	background: url("../images/dark1.jpg") repeat;
@@ -97,19 +120,6 @@ body{
 img{
 	/* width:100%; */
 	max-width:100%;
-}
-
-.menuBar{
- color: white;
- text-align: center;
-}
-
-.menuTab{
-background: #777777;
-width=24%; 
-margin=auto;
-padding=1px;
-
 }
 
 .projectUpdate{
@@ -190,10 +200,11 @@ padding=1px;
  text-align:center;
  top:5.5em;
  margin-left:3000px;
+ margin-right:100px;
  position:absolute;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
-	white-space:nowrap;
-	display:inline-block;
+ box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+	
+	
 }
 
 #inputbox{
