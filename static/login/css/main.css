@@ -21,6 +21,7 @@ border-bottom: 3px solid #F00;
 width: 100%;
 z-index: 10;
 overflow: visible;
+opacity:0.6;
 }
 
 nav ul {
@@ -30,7 +31,8 @@ margin: 0;
 position: relative;
 width: 800px;
 left: 50%;
-margin-left: -500px;
+margin-left: -420px;
+
 }
 
 ul {
@@ -41,7 +43,6 @@ overflow: auto;
 nav li {
 float: left;
 overflow: show;
-
 }
 
 li {
@@ -63,7 +64,7 @@ text-align: center;
 
 nav a:hover{
 color: black;
-background:#CCCCCC;
+background:#dddddd;
 }
 
 a{
@@ -83,33 +84,9 @@ nav li img{
 
 margin-top:0.2em; 
 width:100px;
-position:relative;
+position:absolute;
 left:-2em;
 }
-
-#nav ul li:hover > ul#submenu { margin:0px; padding:0px; }
-#nav ul li:hover > ul#submenu li{ float:none; display:block; }
-#nav ul li:hover > ul#submenu li a { color:#000; min-width:150px;}
-#nav ul li:hover > ul#submenu li a:hover{ color:#000;  }
-
-
-#nav ul li{
-position:relative;
-}
-
-#nav ul ul{
-display:none;
-}
-
-#nav ul li ul#submenu{
-position:absolute;  
-float:none;
-height:100px;
-width:200px;
-background-color:#FF0;
-display:block;
-text-align:center;
-} 
 
 body{
 	background: url("../images/dark1.jpg") repeat;
@@ -122,16 +99,44 @@ img{
 	max-width:100%;
 }
 
-.projectUpdate{
 
-	background-color:white;
-	top: 90px;
+
+.userHome{
+
+margin-top:3.5em;
+
+}
+
+.pmoMoocHome {
+	
+background-color:#CCC;
+	top: 6em;
 	border: 2px solid #F00;
 	border-radius:3px;
 	text-align:center;
-	width:1000px;
+	width:100%;
 	padding:10px;
-	margin-left:1400px;
+	margin-left:900px;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	position:absolute;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+	white-space:nowrap;
+	display:inline-block;
+	
+}
+
+.projectUpdate{
+
+	background-color:#CCC;
+	top: 6em;
+	border: 2px solid #F00;
+	border-radius:3px;
+	text-align:center;
+	width:100%;
+	padding:10px;
+	margin-left:900px;
 	margin-right:auto;
 	margin-top:auto;
 	margin-bottom:auto;
@@ -142,69 +147,6 @@ img{
 	
 	
 
-}
-
-.divNext{
-
-	background-color:transparent;
-	top:3em;
-	/*border: 2px solid #F00;
-	border-radius:3px;*/
-	text-align:center;
-	width:800px;
-	/*padding:10px;*/
-	margin-left:250px;
-	margin-right:auto;
-	margin-top:auto;
-	margin-bottom:auto;
-	position:absolute;
-	/*box-shadow: 5px 5px 10px rgba(0,0,0,0.1);*/
-	white-space:nowrap;
-	display:inline-block;
-
-}
-
-.divHome{
-
-	width:	850px;
-/*	padding:5px;*/
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:3em;
-	margin-bottom:auto;
-	position:relative;
-	/*box-shadow: 5px 5px 10px rgba(0,0,0,0.1);*/
-	white-space:nowrap;
-	display:inline-block;
-
-}
-
-.lastDiv{
-	
-	top:5.5em;
-	text-align:center;
-	width:850px;
-	height:400px;
-	margin-left:2800px;
-	margin-right:100px;
-	margin-top:auto;
-	margin-bottom:auto;
-	position:absolute;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
-	white-space:nowrap;
-	display:inline-block;
-}
-
-.end{
- width:50px;
- text-align:center;
- top:5.5em;
- margin-left:3000px;
- margin-right:100px;
- position:absolute;
- box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
-	
-	
 }
 
 #inputbox{
